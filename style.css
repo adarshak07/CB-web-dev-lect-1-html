@@ -1,0 +1,72 @@
+* {
+    font-style: italic;
+}
+div {
+    color: blue;
+
+}
+p {
+    color: red;
+}
+
+.big {  /*class is selected using. opertor */
+    font-size: 25pt;
+}
+.bold {
+    font-weight: bold;
+}
+#one {
+
+    background-color: blueviolet;
+    width: 400px;
+    height: 400px;
+    padding: 10px;
+    color: bisque;
+}
+#one:hover {  /* puedo selectors when user do something then used */
+    background: darkgreen;
+    font-weight: bold;
+    color: coral;
+
+}
+#one:active {  /* when click to :active used */
+    width: 100px;
+    height: 100px;
+
+}
+
+
+h2 + h3 {  /* adjacent combinator ie h3 me change just next of h2 */
+
+background: red ;    
+}
+
+h1 ~ h4 { /* general combinator all h4 next of h1 affected */
+
+    color: chartreuse;
+}
+
+section > p { /* child combinator */
+    background: rgb(247, 27, 155);
+}
+
+input:focus {
+    font-size: 30px;
+    width: 100px;
+}
+
+div {
+    margin: 20px; /* from all sides so see output */
+    padding: 10px; /* padding is next to  margin */
+    border: solid black 2px;  
+}
+
+#div1 {
+    background-color: cyan;
+}
+#div2 {
+    background-color: darkgrey;
+}
+#div3 {
+    background-color: darksalmon;
+}
