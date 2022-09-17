@@ -1,0 +1,31 @@
+div {
+
+    width: 60px;
+    height: 60px;
+    margin: 30px;
+    background-color: indigo;
+    padding: 30px;
+
+    color: chartreuse;
+    
+}
+
+.three {
+    background-color: aquamarine;
+    transform: skewX(20deg) skewY(40deg) rotate(35deg); /* bend in x dirsction skewX se , NOTE JO PAHLE WRITE WO EXECUTE FIRST */
+}
+.one {
+    transform: scale(1.5,1.5); /* it makes bigger content also */
+}
+.two {
+transform: translate(1000px,50px); /* x axis , y axis , aage chala jaega , upar etc using translate*/
+}
+.four {
+    transform: rotate(45deg) translateX(200px);
+}
+ /*.four {
+    transform: translateX(200px) rotate(45deg);
+}  both different */
+
+
+
