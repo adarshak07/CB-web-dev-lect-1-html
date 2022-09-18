@@ -1,0 +1,45 @@
+.container {
+    margin: 30px;
+    width: 400px;
+    height: 400px;
+    background-color: lightpink;
+}
+
+.item {
+    margin: 20px;
+    width: 50px;
+    height: 50px; /* basic ra all class of item height 10 only so small feel */
+    background-color: darkcyan;
+    border: solid black 1px;
+    display: inline-block; /* div are default block elemnt , */
+
+
+    animation: bounce 5s; /* animation see */
+    animation-iteration-count:1;
+
+} 
+.one {
+    animation-timing-function: ease-in; /* NOTE EASE-IN STARTS SLOW BUT REACH ALL UPAR AT SAME TIME ONLY FEEL */
+  /* timing,speed of animation different types see */
+}
+.two {
+    animation-timing-function: ease-out;  /* OUT IE END SLOW */
+}
+.three {
+    animation-timing-function: linear;
+}
+
+
+@keyframes bounce {  /* this is how we design animation */
+    0% {
+      transform: scale(2); /* start me inc then 50 par nothing */
+    }
+    50% { /* 50 percent ie 5 sec since 10 sec time hai */
+       
+        transform: translateY(300px); /* so at half animation we want box to go down 300px */
+         background-color: deeppink;
+    }
+    100% {
+ /* 100 0 nothing so normal */
+    }
+}
