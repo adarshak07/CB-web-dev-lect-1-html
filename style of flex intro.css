@@ -1,0 +1,30 @@
+.container {
+    margin: 40px;
+    height: 400px;
+    width: 400px;
+    background-color: bisque;
+    display:flex; /*  flex ie jitna space hai div me utna me hee inner elemnts rahega  */
+
+    flex-wrap: wrap; /* flex wrap is wrap-reverse ie bottom se start , if want noraml use wrap only*/
+    flex-direction: row;  /*and which dirsction ie row se start ya cloumn se start to flex-direction use  */
+    /* TOTAL 8 WAYS NOTE DO ETC */
+
+    justify-content:center; /*kaise place EVERY ROW IMM feel , NOTE CHANGES ARE VISIBLE VERY MINUTE ONLY SO NOTE*/
+
+    /* align item = ek line me lao */align-items:baseline; /* text becomes all in one line only NPTE IMM YES */
+
+    align-content:center; /* align content all not a row so diff note justify se */
+} 
+
+.item {
+    margin: 10px;
+    border: dotted rosybrown 2px;
+    height: 50px;
+    width: 50px;
+    background-color: lightseagreen;
+    font-size: 20pt;
+    color: white;
+
+    text-align: center;
+    line-height: 50px; /* same as ht and wdt */
+}
